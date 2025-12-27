@@ -275,7 +275,7 @@ class DFOVisualizer:
             row=row, column=0, sticky=tk.W, pady=5)
         row += 1
 
-        self.status_text = tk.Text(control_frame, height=8, width=30, font=('Courier', 9))
+        self.status_text = tk.Text(control_frame, height=10, width=30, font=('Courier', 9))
         self.status_text.grid(row=row, column=0, sticky=(tk.W, tk.E), pady=5)
 
         # Right panel - Visualization
